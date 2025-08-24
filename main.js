@@ -10,9 +10,9 @@ let bgMusicVolume = 0.3; // 預設音量30%
 function initBackgroundMusic() {
   try {
     console.log('🎵 開始初始化背景音樂...');
-    console.log('音樂文件路徑: music/game_bgm.wav');
+    console.log('音樂文件路徑: music/game_bgm.mp3');
     
-    bgMusic = new Audio('music/game_bgm.wav');
+    bgMusic = new Audio('music/game_bgm.mp3');
     bgMusic.loop = true; // 循環播放
     bgMusic.volume = bgMusicVolume;
     bgMusic.preload = 'auto';
